@@ -13,7 +13,7 @@ async def test_find():
     storage = FilePipelineStorage()
     items = list(
         storage.find(
-            base_dir="tests/fixtures/dulce",
+            base_dir="tests/fixtures/dulce-text",
             file_pattern=re.compile(r".*\.txt$"),
             progress=None,
             file_filter=None,
