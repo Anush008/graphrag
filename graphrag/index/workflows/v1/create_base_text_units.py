@@ -110,11 +110,8 @@ def build_steps(
             },
         },
         {
-            "verb": "hackerman",
+            "verb": "inject_doc_title",
             "args": {},
-            "input": {
-                "input": "result",
-                "other": DEFAULT_INPUT_NAME
-            }
-        }
+            "input": {"input": "result", "other": DEFAULT_INPUT_NAME},
+        },
     ]

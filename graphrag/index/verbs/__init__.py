@@ -14,6 +14,7 @@ from .graph import (
     merge_graphs,
     unpack_graph,
 )
+from .inject_doc_title import inject_doc_title
 from .overrides import aggregate, concat, merge
 from .snapshot import snapshot
 from .snapshot_rows import snapshot_rows
@@ -21,7 +22,6 @@ from .spread_json import spread_json
 from .text import chunk, text_embed, text_split, text_translate
 from .unzip import unzip
 from .zip import zip_verb
-from .hackerman import hackerman
 
 __all__ = [
     "aggregate",
@@ -34,6 +34,7 @@ __all__ = [
     "entity_extract",
     "extract_covariates",
     "genid",
+    "inject_doc_title",
     "layout_graph",
     "merge",
     "merge_graphs",
